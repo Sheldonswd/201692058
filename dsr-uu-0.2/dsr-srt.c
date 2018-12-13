@@ -313,6 +313,7 @@ struct dsr_srt_opt *dsr_srt_opt_add(char *buf, int len, int flags,
 
 	return srt_opt;
 }
+/*你以为我看得懂 实际上我是dio哒*/
 
 int NSCLASS dsr_srt_add(struct dsr_pkt *dp)
 {
@@ -479,6 +480,7 @@ int NSCLASS dsr_srt_opt_recv(struct dsr_pkt *dp, struct dsr_srt_opt *srt_opt)
 
 	/* TODO: check for multicast address in next hop or dst */
 	/* TODO: check MTU and compare to pkt size */
+	/*其实完全看不懂，但是还是要注释一下*/
 
 	return DSR_PKT_FORWARD;
 }
